@@ -13,9 +13,3 @@ class GroupOut(BaseGroup):
     """Класс описывает продукт, который отправляется пользователю (без секретной информации)"""
 
     id :uuid.UUID
-
-class StudentStorage(BaseGroup):
-    """Класс описывает хранение продукта в хранилище"""
-
-    id :uuid.UUID
-    password :str

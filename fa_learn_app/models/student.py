@@ -12,6 +12,7 @@ class BaseStudent(BaseModel):
     age :int
     birth_date :datetime.datetime
     login :datetime.datetime
+    group_id :str
 
 
 class StudentIn(BaseStudent):
